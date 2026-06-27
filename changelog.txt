@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-06-27
+  Features:
+    - Initial release
+  Changes:
+    - All changes are relative to the 2.0 implementation of the meltdown facility for Inverted Quality
+    - Slowed all meltdown from 0.4 seconds to 1.2 seconds
+    - Allowed speed, efficiency, and pollution module effects from modules, beacons, or surface effects
+    - Added two module slots to the meltdown facility

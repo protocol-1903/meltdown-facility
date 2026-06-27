@@ -1,0 +1,14 @@
+{
+  "name": "meltdown-facility",
+  "version": "1.0.0",
+  "title": "Meltdown Facility",
+  "description": "A recycler-like building that reduces inputs to their base ingredients, but only returns normal quality items.",
+  "author": "protocol_1903",
+  "contact": "https://discord.gg/K3fXMGVc4z",
+  "homepage": "https://github.com/protocol-1903/meltdown-facility",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.0"
+  ],
+  "quality_required": true
+}
