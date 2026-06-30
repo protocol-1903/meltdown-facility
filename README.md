@@ -1,5 +1,7 @@
 [![ko-fi](https://img.shields.io/badge/Ko--fi-Donate%20-hotpink?logo=kofi&logoColor=white&style=for-the-badge)](https://ko-fi.com/protocol1903) [![](https://img.shields.io/badge/dynamic/json?color=orange&label=Factorio&query=downloads_count&suffix=%20downloads&url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2Fmeltdown-facility&style=for-the-badge)](https://mods.factorio.com/mod/meltdown-facility) [![](https://img.shields.io/badge/Discord-Community-blue?style=for-the-badge)](https://discord.gg/K3fXMGVc4z) [![](https://img.shields.io/badge/Github-Source-green?style=for-the-badge)](https://github.com/protocol-1903/meltdown-facility)
 
+![meltdown facility showcase](https://github.com/protocol-1903/web-host-things/blob/e1e27aa14cf2b5c067e3368ae03d317fcc96ba0e/meltdown-facility-example.gif?raw=true)
+
 This mod adds a recycler-like machine that takes any input items and reduces them to their base ingredients, but only at normal quality. This allows you to get more ingredients back from excess items, but you don't get to use it to cycle quality. This is a lossy process, you only get 1/8th of the total ingredients back. The mod uses the recycling script logic to determine the ingredients.
 
 Pairs well with [Downgrade port](https://mods.factorio.com/mod/downgrade-port)
