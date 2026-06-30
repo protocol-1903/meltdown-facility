@@ -2,6 +2,8 @@
 
 This mod adds a recycler-like machine that takes any input items and reduces them to their base ingredients, but only at normal quality. This allows you to get more ingredients back from excess items, but you don't get to use it to cycle quality. This is a lossy process, you only get 1/8th of the total ingredients back. The mod uses the recycling script logic to determine the ingredients.
 
+Pairs well with [Downgrade port](https://mods.factorio.com/mod/downgrade-port)
+
 ## History
 This is a standalone implementation of the meltdown facility from [Inverted Quality](https://mods.factorio.com/mod/Inverted-Quality), using new 2.1 API tools for zero active runtime scripting. Thanks to [@thesixthroc](https://mods.factorio.com/user/thesixthroc) for allowing me to post this as a separate mod. All gameplay details are the same as implemented in Inverted Quality for 2.0.
 
