@@ -141,6 +141,12 @@ data:extend{
     order = "e-a[meltdown]"
   },
   {
+    type = "item-group",
+    name = "meltdown-facility",
+		icon = "__meltdown-facility__/graphics/icons/arc-furnace.png",
+    order = "f-[meltdown-facility]"
+  },
+  {
     type = "recipe-category",
     name = "meltdown"
   },
@@ -153,7 +159,6 @@ data:extend{
 	{
     type = "item-subgroup",
 		name = "meltdown",
-		group = "production",
-		order = "m-a[meltdown-facility]-a[meltdown]",
+		group = "meltdown-facility",
   },
 }
