@@ -120,8 +120,8 @@ for type in pairs(defines.prototypes.item) do
         {
           "?",
           item.localised_name or {"item-name." .. item.name},
-          item.place_result and {"entity-name." .. item.place_result} or "",
-          item.place_as_equipment_result and {"equipment-name." .. item.place_as_equipment_result} or "",
+          item.place_result and {"entity-name." .. item.place_result} or {"unknown-string.17"},
+          item.place_as_equipment_result and {"equipment-name." .. item.place_as_equipment_result} or {"unknown-string.17"},
           item.place_as_tile and data.raw.tile[item.place_as_tile.result].localised_name or {"tile-name." .. item.name}
         },
       },
