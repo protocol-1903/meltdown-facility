@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
-Date: ????
+Date: 2026-08-25
   Changes:
     - Updated recipe name logic
+    - Restricted modules to only allow speed, efficiency, and pollution effects
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2026-06-30

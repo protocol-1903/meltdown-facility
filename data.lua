@@ -9,8 +9,6 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
-local SCALE = 0.23
-
 data:extend{
   {
 		type = "furnace",
@@ -56,7 +54,7 @@ data:extend{
 		source_inventory_size = 1,
 		result_inventory_size = 12,
     module_slots = 2,
-    allowed_effects = {"consumption", "pollution", "speed", "productivity", "quality"},
+    allowed_effects = {"consumption", "pollution", "speed"},
 		energy_source = {
 			type = "electric",
 			usage_priority = "secondary-input",

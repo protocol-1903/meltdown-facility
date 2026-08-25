@@ -1,6 +1,6 @@
 {
   "name": "meltdown-facility",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "title": "Meltdown Facility",
   "description": "A recycler-like building that reduces inputs to their base ingredients, but only returns normal quality items.",
   "author": "protocol_1903",
