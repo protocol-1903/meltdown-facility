@@ -160,3 +160,7 @@ data:extend{
 		group = "meltdown-facility",
   },
 }
+
+if mods["scraptk"] then
+  ScrapIndustry.categories["meltdown"] = {ignore=true}
+end
