@@ -28,6 +28,14 @@ local function get_non_self_recycling_products(item_name)
 		return nil, false
 	end
 
+	-- scraptk
+	if ScrapIndustry then
+		local item_metadata = ScrapIndustry.items[item_name]
+		if item_metadata and item_metadata.recycle then
+			return nil, false
+		end
+	end
+
 	local values = {}
 	local has_nontrivial = false
 
